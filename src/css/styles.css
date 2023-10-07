@@ -1,0 +1,60 @@
+/* styles.css */
+html, body {
+    background-color: rgba(0, 0, 0, 0.50); /* Substitua pela cor de fundo desejada */
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+header {
+    text-align: center;     /* Alinha o texto no centro dentro do header */
+}
+
+/* Estilo para a seção que contém cada grupo de livros */
+section {
+    text-align: center;
+    margin: 20px;
+    background-color: rgba(196, 5, 186, 0.5);
+    padding: 5px;
+    border-radius: 5px; 
+}
+
+/* Estilo para os títulos dos grupos de livros (H2) */
+section h2 {
+    margin: 0;
+    
+}
+
+/* Estilo para a lista de livros dentro de cada seção */
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: rgb(255, 131, 30);
+    background-image: linear-gradient(0deg, black, rgb(70, 2, 70));
+    
+}
+
+/* Estilo para cada livro */
+.book {
+    text-align: center;
+    margin: 30px; 
+    max-width: 150px; 
+    background-color: rgba(78, 45, 45, 0.50);
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+/* Estilo para as imagens das capas dos livros */
+.book img {
+    max-width: 100%; 
+    height: auto;
+    
+}
+
+/* Estilo para os parágrafos de nome dos livros */
+.book p {
+    margin-top: 5px;
+    font-weight: bold;
+    
+}
