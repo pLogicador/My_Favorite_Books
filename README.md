@@ -2,7 +2,7 @@
  
 Este repositório contém uma lista dos melhores livros que já li até agora. Você pode acessar a lista completa em um site simples que criei.
 
-## Site dos Melhores Livros
+## Meu Site 
 
 - [Melhores Livros](https://plogicador.github.io/My_Favorite_Books/)
 
